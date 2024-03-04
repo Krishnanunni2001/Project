@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T16:33:50 IST" name="Suite" finished-at="2024-03-04T16:36:33 IST" duration-ms="162890">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CarTestNG.Loan_cal1()[pri:7, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal1" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Loan_cal2()[pri:9, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal2" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Loan_cal3()[pri:11, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal3" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.car_Loan()[pri:2, instance:Main_TestNG.CarTestNG@6069db50]" name="car_Loan" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.home_Loan()[pri:5, instance:Main_TestNG.CarTestNG@6069db50]" name="home_Loan" class="Main_TestNG.CarTestNG"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CarTestNG.Calc2()[pri:10, instance:Main_TestNG.CarTestNG@6069db50]" name="Calc2" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Calc3()[pri:12, instance:Main_TestNG.CarTestNG@6069db50]" name="Calc3" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Car_Loan()[pri:3, instance:Main_TestNG.CarTestNG@6069db50]" name="Car_Loan" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.EMI_Calculation()[pri:4, instance:Main_TestNG.CarTestNG@6069db50]" name="EMI_Calculation" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Emi_Calc()[pri:8, instance:Main_TestNG.CarTestNG@6069db50]" name="Emi_Calc" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Home_page()[pri:6, instance:Main_TestNG.CarTestNG@6069db50]" name="Home_page" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Loan_cal1()[pri:7, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal1" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Loan_cal2()[pri:9, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal2" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.Loan_cal3()[pri:11, instance:Main_TestNG.CarTestNG@6069db50]" name="Loan_cal3" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.car_Loan()[pri:2, instance:Main_TestNG.CarTestNG@6069db50]" name="car_Loan" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.home_Loan()[pri:5, instance:Main_TestNG.CarTestNG@6069db50]" name="home_Loan" class="Main_TestNG.CarTestNG"/>
+        <method signature="CarTestNG.testLogo()[pri:1, instance:Main_TestNG.CarTestNG@6069db50]" name="testLogo" class="Main_TestNG.CarTestNG"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-03-04T16:33:50 IST" name="Test" finished-at="2024-03-04T16:36:33 IST" duration-ms="162890">
+      <class name="Main_TestNG.CarTestNG">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:33:51 IST" name="setup" finished-at="2024-03-04T16:34:37 IST" duration-ms="46382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:37 IST" name="testLogo" finished-at="2024-03-04T16:34:40 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="car_Loan()[pri:2, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:40 IST" name="car_Loan" finished-at="2024-03-04T16:34:40 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car_Loan -->
+        <test-method signature="Car_Loan()[pri:3, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:41 IST" name="Car_Loan" finished-at="2024-03-04T16:34:43 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car_Loan -->
+        <test-method signature="EMI_Calculation()[pri:4, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:44 IST" name="EMI_Calculation" finished-at="2024-03-04T16:34:44 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMI_Calculation -->
+        <test-method signature="home_Loan()[pri:5, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:44 IST" name="home_Loan" finished-at="2024-03-04T16:34:47 IST" duration-ms="2460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_Loan -->
+        <test-method signature="Home_page()[pri:6, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:34:47 IST" name="Home_page" finished-at="2024-03-04T16:35:02 IST" duration-ms="14912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method signature="Loan_cal1()[pri:7, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:35:02 IST" name="Loan_cal1" finished-at="2024-03-04T16:35:05 IST" duration-ms="3452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal1 -->
+        <test-method signature="Emi_Calc()[pri:8, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:35:06 IST" name="Emi_Calc" finished-at="2024-03-04T16:35:37 IST" duration-ms="31408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emi_Calc -->
+        <test-method signature="Loan_cal2()[pri:9, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:35:38 IST" name="Loan_cal2" finished-at="2024-03-04T16:35:38 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal2 -->
+        <test-method signature="Calc2()[pri:10, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:35:38 IST" name="Calc2" finished-at="2024-03-04T16:36:02 IST" duration-ms="23255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc2 -->
+        <test-method signature="Loan_cal3()[pri:11, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:36:02 IST" name="Loan_cal3" finished-at="2024-03-04T16:36:02 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal3 -->
+        <test-method signature="Calc3()[pri:12, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:36:03 IST" name="Calc3" finished-at="2024-03-04T16:36:32 IST" duration-ms="29751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc3 -->
+        <test-method is-config="true" signature="close_b()[pri:0, instance:Main_TestNG.CarTestNG@6069db50]" started-at="2024-03-04T16:36:33 IST" name="close_b" finished-at="2024-03-04T16:36:33 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_b -->
+      </class> <!-- Main_TestNG.CarTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

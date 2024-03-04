@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Main_TestNG.CarTestNG">
+        <methods>
+          <include name="Loan_cal3"/>
+          <include name="Car_Loan"/>
+          <include name="setup"/>
+          <include name="Emi_Calc"/>
+          <include name="EMI_Calculation"/>
+          <include name="Loan_cal2"/>
+          <include name="home_Loan"/>
+          <include name="close_b"/>
+          <include name="Home_page"/>
+          <include name="Calc2"/>
+          <include name="Calc3"/>
+        </methods>
+      </class> <!-- Main_TestNG.CarTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
