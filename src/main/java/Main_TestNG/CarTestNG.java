@@ -27,7 +27,7 @@ import Utilities.ScrollDown;
 @Listeners(Utilities.ExtentReportManager.class)
 public class CarTestNG  {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	CarPOM lp;
 	HomePOM Hl ;
 	Screenshots ss;
