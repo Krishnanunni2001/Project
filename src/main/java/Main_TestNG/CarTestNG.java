@@ -27,7 +27,7 @@ import Utilities.ScrollDown;
 @Listeners(Utilities.ExtentReportManager.class)
 public class CarTestNG  {
 	
-	public static WebDriver driver;
+	public WebDriver driver;
 	CarPOM lp;
 	HomePOM Hl ;
 	Screenshots ss;
@@ -35,7 +35,7 @@ public class CarTestNG  {
 	LoanCal2 l2;
 	LoanCal3 lc3;
 	ScrollDown sd;
-	DriverSetup dd;
+	
 	
 
 
@@ -45,8 +45,7 @@ public class CarTestNG  {
 		driver=new ChromeDriver();
 		driver.get("https://emicalculator.net/");
 		driver.manage().window().maximize();
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
-		WebElement h=wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("/html/body/div/div/main/article/div[1]/h1"))));
+		
 		ss=new Screenshots();
 		sd=new ScrollDown();
 		
