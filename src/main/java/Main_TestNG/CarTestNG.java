@@ -4,6 +4,7 @@ import java.awt.AWTException;
 import java.io.IOException;
 import java.time.Duration;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,13 +36,17 @@ public class CarTestNG  {
 	LoanCal3 lc3;
 	ScrollDown sd;
 	DriverSetup dd;
+	
 
 
 	@BeforeClass(alwaysRun=true)
 	void setup() throws InterruptedException
 	{
-		dd=new DriverSetup();
-		driver=dd.SelectDriver();
+		driver=new ChromeDriver();
+		driver.get("https://emicalculator.net/");
+		driver.manage().window().maximize();
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebElement h=wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("/html/body/div/div/main/article/div[1]/h1"))));
 		ss=new Screenshots();
 		sd=new ScrollDown();
 		
